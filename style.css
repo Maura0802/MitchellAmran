@@ -1,0 +1,258 @@
+body {
+  background-color:#f2e3e3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+  list-style: none;
+  padding-left: 0%;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.menu a {
+  background-color: #915858;
+  text-decoration: dotted;
+  padding: 8px;
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  height: 115px;
+  font-size: x-large;
+  font-family: century gothic;
+}
+
+.menu a:hover {
+  background-color: #e9b7b7;  /* Change background color on hover */
+  color: #915858;            /* Change text color on hover */
+  transition: all 0.4s;
+}
+
+.resume-header {
+  background-color: #A56C6C;  /* Adjust color if desired */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;  /* Professional font */
+  font-size: 1.3em;  /* Adjust font size as needed */
+  color: #fff;  /* White text for better contrast */
+  padding: 20px;  /* Add some padding to space out the content */
+}
+
+.resume-header img {
+  max-height: 100px;  /* Adjust the size of the image as needed */
+  margin-right: 20px;  /* Space between the image and the text */
+  border-radius: 5%;
+}
+
+.uitm {
+  /* Specific styles for this image */
+  width: 250px; /* Adjust width as needed */
+  height: 180px; /* Maintain aspect ratio */
+  display: block; /* Ensure image takes up full width on a new line */
+  margin: auto;
+  border-radius: 20%;
+}
+
+.edu1 {
+  margin: 0 auto; /* Center element horizontally */
+  width: 390px;  /* Set desired width */
+  padding: 0 20px;
+  font-size: x-small;
+  color: #885151 ;
+  text-align: center;
+  border: 5px groove #915858; /* Dual borders */
+  border-radius: 10px;
+  background-color: #f2e3e3;
+  justify-content: center;
+}
+
+.edu2 {
+  margin: 0 auto; /* Center element horizontally */
+  width: 390px;  /* Set desired width */
+  padding: 0 20px;
+  font-size: x-small;
+  color: #885151 ;
+  text-align: center;
+  border: 5px groove #915858; /* Dual borders */
+  border-radius: 10px;
+  background-color: #f2e3e3;
+  justify-content: center;
+}
+mark {
+  background-color: whitesmoke; /* Set your desired highlight color */
+  color: inherit; /* Ensures text color remains as inherited */
+  padding: 2px; /* Optional: Add padding for better appearance */
+  border-radius: 10%;
+}
+
+.edu2 h2 {
+  font-family: 'Poppins', sans-serif;  /* Bold font for headings */
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.edu2 p {
+  font-family: Century Gothic, sans-serif;  /* Bold font for headings */
+  font-size: 20px;
+}
+
+.edu2 h3 {
+  font-family: Century Gothic, sans-serif;  /* Different font for skills */
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.edu2 h3 emoji {
+  font-size: 18px ;  /* Increase emoji size slightly */
+  margin-right: 5px;
+}
+
+.no-border {
+  border: none; /* Remove the border */
+}
+
+.lokyuk {
+  margin: 0% auto;
+  height: 200px; width: 200px;
+  border-radius: 20%;
+}
+
+.uitm_3 {
+  margin: 0% auto;
+  height: 200px; width: 170px;
+}
+.passport {
+  width: 200px; /* Adjust width as needed */
+  height: 250px; /* Maintain aspect ratio */
+  display: block; /* Ensure image takes up full width on a new line */
+  margin: auto;
+  border-radius: 50%;
+}
+
+.passport2 {
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  display: block; /* Ensure image behaves as a block element */
+  margin: 0 auto; /* Center the image horizontally */
+  border-radius: 50%; /* Make the image circular */
+  border-image: round;
+}
+
+.main {
+  margin: auto;  /* Center horizontally */
+  width: 60%;
+  padding: 19px;
+  font-size: x-small;
+  color: #915858;
+  text-align: center;
+  font-size: small;
+  background-color:#f2e3e3;
+}
+
+.right {
+  background-color: #915858;
+  float: right;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+  color: #e7b7b7;
+}
+.main p {
+  color:black;
+  font-size: small;
+  font-family: century Gothic, sans-serif;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;  /* Enable flexbox for horizontal arrangement */
+}
+.profile-image {
+  /* Existing styles... */
+  margin-right: 10px;  /* Add some space to the right of the image */
+}
+.content-container {
+  display: flex;
+  flex: 1;
+}
+
+.content {
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.content_p {
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+a img {
+  width: 80px; /* Adjust width as needed */
+  height: 80px; /* Adjust height as needed */
+}
+
+mark {
+  background-color: whitesmoke; /* Set your desired highlight color */
+  color: inherit; /* Ensures text color remains as inherited */
+  padding: 2px; /* Optional: Add padding for better appearance */
+  border-radius: 10%;
+}
+
+.video {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hyatt {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10%;
+}
+
+.experience-description {
+  font-size: 20px;
+  font-style: oblique;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.footer {
+  background-color:#A56C6C;
+  text-align:center;
+  padding:5px;
+  margin-top:7px;
+}
+.footer p {
+  font-family: century Gothic, sans-serif;
+  color: #f2e3e3;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
